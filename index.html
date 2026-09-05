@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 22nd Birthday, Nurul Maisarah!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@700&display=swap');
+
+        :root {
+            --soft-blue: #e0f2fe;
+            --mid-blue: #7dd3fc;
+            --accent-blue: #0284c7;
+            --text-dark: #0c4a6e;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-dark);
+            overflow-x: hidden;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 3rem 2rem;
+            border-radius: 30px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            margin: 40px 0;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            animation: slideUp 1.2s ease-out;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Profile Picture Styling */
+        .profile-container {
+            position: relative;
+            width: 180px;
+            height: 180px;
+            margin: 0 auto 1.5rem;
+        }
+
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid white;
+            box-shadow: 0 10px 20px rgba(2, 132, 199, 0.2);
+        }
+
+        .age-badge {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            background: var(--accent-blue);
+            color: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+            font-size: 1.2rem;
+            border: 3px solid white;
+        }
+
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3.5rem;
+            color: var(--accent-blue);
+            margin: 0;
+        }
+
+        .date {
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin-bottom: 2rem;
+            color: #64748b;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        /* Photo Gallery Grid */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 2rem;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 180px; 
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Divider Text Styling */
+        .divider-text {
+            background: rgba(224, 242, 254, 0.5);
+            padding: 1.5rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            border-left: 4px solid var(--accent-blue);
+            font-style: italic;
+            color: #0369a1;
+        }
+        
+        .divider-text p {
+            margin: 0; 
+        }
+
+        .btn {
+            background: var(--accent-blue);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            box-shadow: 0 10px 20px rgba(2, 132, 199, 0.3);
+            margin-top: 1rem;
+        }
+
+        .btn:hover {
+            background: #0369a1;
+            transform: translateY(-3px);
+            box-shadow: 0 15px 25px rgba(2, 132, 199, 0.4);
+        }
+
+        /* Floating decoration elements */
+        .decoration {
+            position: fixed;
+            z-index: -1;
+            color: var(--mid-blue);
+            opacity: 0.3;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="decoration" style="top: 10%; left: 10%;">✨</div>
+    <div class="decoration" style="top: 20%; right: 15%;">☁️</div>
+    <div class="decoration" style="bottom: 15%; left: 20%;">✨</div>
+
+    <div class="container">
+        <div class="profile-container">
+            <img src="profile.jpg" alt="Nurul Maisarah" class="profile-img">
+            <div class="age-badge">22</div>
+        </div>
+
+        <h1>Happy Birthday, Nurul Maisarah!</h1>
+        <div class="date">14 SEPTEMBER 2026</div>
+        
+        <p>
+            Happy 22nd birthday Nurul Maisarah!!!<br><br>
+            Congratulations on surviving 22 years of life, wishing that your life will always be happy, full of success and you getting everything you want and dreamed of in your life. I sincerely thanks you for not getting annoyed with me (cause some people find that im annoying) and being a good friends of mine since day one and supportive girlfriend. I hope you know that I truly appreciate your presence, your words and your support in my life.<br><br>
+            I really wish that I could be there with you celebrating your birthday, taking you to cafe and cake shops and buying you gift. Unfortunately, Im not there with you but my wishes and prayer will always be there with you.<br><br>
+            I really do love you Nurul Maisarah and i hope that i will never make you doubt my love towards you.
+        </p>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="solo1.jpg" alt="Nurul Maisarah Photo 1">
+            </div>
+            <div class="gallery-item">
+                <img src="solo2.jpg" alt="Nurul Maisarah Photo 2">
+            </div>
+        </div>
+
+        <div class="divider-text">
+            <p>"We have go out on dates before... but I really wish that we will go on official dates as a couple"</p>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="us1.jpg" alt="Our Photo 1">
+            </div>
+            <div class="gallery-item">
+                <img src="us2.jpg" alt="Our Photo 2">
+            </div>
+        </div>
+
+        <button class="btn" onclick="celebrate()">Click for a Surprise 🎈</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script>
+        function celebrate() {
+            var count = 200;
+            var defaults = {
+                origin: { y: 0.7 },
+                colors: ['#7dd3fc', '#0284c7', '#ffffff']
+            };
+
+            function fire(particleRatio, opts) {
+                confetti(Object.assign({}, defaults, opts, {
+                    particleCount: Math.floor(count * particleRatio)
+                }));
+            }
+
+            fire(0.25, { spread: 26, startVelocity: 55 });
+            fire(0.2, { spread: 60 });
+            fire(0.35, { spread: 100, decay: 0.91, scalar: 0.8 });
+            fire(0.1, { spread: 120, startVelocity: 25, decay: 0.92, scalar: 1.2 });
+            fire(0.1, { spread: 120, startVelocity: 45 });
+        }
+    </script>
+</body>
+</html>
